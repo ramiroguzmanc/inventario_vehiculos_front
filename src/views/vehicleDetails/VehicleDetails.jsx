@@ -7,9 +7,9 @@ export const VehicleDetails = () => {
   return (
     <DashboardLayout>
       <section className='px-8 mt-8 w-full'>
-        <header className='flex justify-between'>
+        <header className='flex justify-between w-1/2 items-center'>
           <h1 className='text-5xl font-bold'>Vehículo - Detalles </h1>
-          <button onClick={toggleEdition} className={`p-2 rounded-md text-white font-bold ${isEditStateDisabled ? 'bg-blue' : 'bg-red'} mb-6`}>{isEditStateDisabled ? 'Habilitar edición' : 'Deshabilitar edición'}</button>
+          <button onClick={toggleEdition} className={`p-2 rounded-md text-white font-bold ${isEditStateDisabled ? 'bg-blue' : 'bg-red'}`}>{isEditStateDisabled ? 'Habilitar edición' : 'Deshabilitar edición'}</button>
         </header>
         <section className='mt-2 max-w-md'>
           <form onSubmit={onSubmitForm}>

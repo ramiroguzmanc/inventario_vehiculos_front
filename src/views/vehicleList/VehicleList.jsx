@@ -25,7 +25,7 @@ export const VehicleList = () => {
           <div className='mb-10 flex items-center'>
             <form onSubmit={handleSearchByDocumentNumber}>
               <label>Buscar vehículo por número de documento de propietario:
-                <input type='number' placeholder='Escriba una placa' ref={cedulaInputRef} required className='border border-graydark rounded-lg mx-4 p-2' />
+                <input type='number' placeholder='Escriba un documento' ref={cedulaInputRef} required className='border border-graydark rounded-lg mx-4 p-2' />
               </label>
               <button className='bg-green px-6 py-2 rounded-lg text-white font-bold'>Buscar</button>
             </form>
