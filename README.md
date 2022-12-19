@@ -2,7 +2,7 @@
 
 Este proyecto hace parte de la prueba técnica de Gateway IT. Específicamente este repositorio corresponde al Frontend del proyecto.
 
-A continuación se describen los pasos a seguir para la ejecución del proyecto. Tener en cuenta que para un correcto funcionamiento de este proyecto, debe estarse ejecutando el proyecto perteneciente a la API. Link del proyecto API: https://github.com/ramiroguzmanc/inventario_vehiculos_API
+A continuación se describen los pasos a seguir para la ejecución del proyecto. Tener en cuenta que para un correcto funcionamiento de este proyecto, debe estarse ejecutando en paralelo el proyecto perteneciente a la API. Link del proyecto API: https://github.com/ramiroguzmanc/inventario_vehiculos_API
 
 
 
